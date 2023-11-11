@@ -17,6 +17,19 @@ Le code Arduino inclus dans ce projet surveille en continu le courant capté par
 
 Assurez-vous de câbler les composants selon le schéma de câblage fourni dans le code. Vous pouvez trouver des instructions détaillées dans la section "Câblage" du README.
 
+## Câblage
+
+| Composant               | Arduino Pin | Description                                          |
+|-------------------------|-------------|------------------------------------------------------|
+| ACS712 (Signal)         | A0          | Connecté à la broche analogique A0 pour le signal.   |
+| ACS712 (Alimentation +) | 5V          | Alimentation en 5V pour le capteur ACS712.            |
+| ACS712 (Alimentation -) | GND         | Mise à la terre pour le capteur ACS712.              |
+| RTC DS3231 (SDA)         | A4          | Connecté à la broche analogique A4 pour la communication I2C (données). |
+| RTC DS3231 (SCL)         | A5          | Connecté à la broche analogique A5 pour la communication I2C (horloge). |
+| RTC DS3231 (VCC)         | 5V          | Alimentation en 5V pour le module RTC.               |
+| RTC DS3231 (GND)         | GND         | Mise à la terre pour le module RTC.                  |
+| IR LED                  | 9           | Connecté à la broche numérique 9 pour la LED infrarouge. |
+| (Autres connexions)      | -           | Assurez-vous de connecter les broches GND ensemble pour une référence commune. |
 
 ## Personnalisation
 
