@@ -4,7 +4,7 @@ Ce projet Arduino utilise un capteur de courant ACS712, une horloge temps réel 
 
 ## Description
 
-Le code Arduino inclus dans ce projet surveille en continu le courant capté par le capteur ACS712. Lorsque le courant dépasse un certain seuil (0.17 ampère dans cet exemple), un minuteur de 1 minute est déclenché. À l'expiration du minuteur, des commandes infrarouges sont envoyées via l'émetteur infrarouge.
+Le code Arduino inclus dans ce projet surveille en continu le courant capté par le capteur ACS712. Lorsque le courant dépasse un certain seuil (0.17 ampère dans cet exemple), un minuteur de 6 heure est déclenché. À l'expiration du minuteur, des commandes infrarouges sont envoyées via l'émetteur infrarouge.
 
 ## Matériel Requis
 
@@ -13,10 +13,8 @@ Le code Arduino inclus dans ce projet surveille en continu le courant capté par
 - Émetteur infrarouge (et LED infrarouge)
 - Arduino (avec ports analogiques et numériques)
 
-## Câblage
 
-Assurez-vous de câbler les composants selon le schéma de câblage fourni dans le code. Vous pouvez trouver des instructions détaillées dans la section "Câblage" du README.
-
+Assurez-vous de câbler les composants selon le schéma de câblage fourni dans le code.
 ## Câblage
 
 | Composant               | Arduino Pin | Description                                          |
